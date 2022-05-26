@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <!-- CSS Imports -->
+      <link rel="stylesheet" href="css/reset.css" />
+      <link rel="stylesheet" href="css/leaflet.css" />
+      <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+
+      <h1 id="title"> Farewell Jingjing!</h1>
+      <h2 id="description">Thank you for all your contributions to MSO, and all the best in your future endeavours!🥳</h2>
+
+
+      <h4 id="description2">Click on the Hello Kitty characters and municipal issues on the map to view individual messages.</h4>
+      
+  
+     <p><i>P.S. Did you notice that this card features municipal issues that MSO officers are oh so familiar with? Click the Answer Key to see if you managed to find them all! Bonus points if you can identify the significance behind the shape of the map :p</i></p>
+
+      <div class="legend">
+          <button id="cardMap">Map</button>
+          <button id="hiddenMeanings">Answer Key</button>
+          <!-- <button id="showMarkers">Show markers</button> -->
+          <input type="checkbox" id="showMarkers" name="showMarkers" value="showMarker">
+          <label for="showMarkers">Show markers</label><br>
+      </div>
+
+      <!-- <h1>📕📕📕📕📕📕📕📕</h1> -->
+      <h4> Beyond your contributions to the Municipal Sector, we also want to thank you for your contribution to MSO in the form of the MSO Bookclub! Here's a little walk down memory lane of all the books we've read together over the past year and a half! 📕</h4>
+
+      <button id="bookclub">MSO Bookclub</button>
+      <img id="img_side" src="js/images/oneservice-logo.png" alt="OSLogo" style="width:100px;height:100px;">
+      <p id="description2">30 Jun 2021</p>
+      <p id="description2"><i>Hello Kitty Muni Map by Haziah Azhari<br>Bookclub image by Cheong Yinn Shan<br> Website by Leanne Chan</i></p>
+
+
+    </div>
+    
+    <!-- Map -->
+    <div id="map" class="map"></div>
+
+    <!-- Javascript Imports -->
+    <script src="Data/farewellMessages.js"></script>
+
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/helperFunctions.js"></script> 
+    <script src="js/slideModel.js"></script> 
+    <!-- <script src="js/slideModel.js"></script> -->
+    <script src="js/main.js"></script>
+    
+  </body>  
+</html>
